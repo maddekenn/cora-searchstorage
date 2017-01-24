@@ -15,9 +15,9 @@
 	<name>apptokenstorage</name>
 	
 	<scm>
-		<connection>scm:git:https://git.epc.ub.uu.se/epc/storage.git</connection>
-		<developerConnection>scm:git:https://git.epc.ub.uu.se/epc/storage.git</developerConnection>
-		<url>https://git.epc.ub.uu.se/epc/storage.git</url>
+		<connection>scm:git:https://git.epc.ub.uu.se/epc/apptokenstorage.git</connection>
+		<developerConnection>scm:git:https://git.epc.ub.uu.se/epc/apptokenstorage.git</developerConnection>
+		<url>https://git.epc.ub.uu.se/epc/apptokenstorage.git</url>
 	</scm>
 
 	<repositories>
