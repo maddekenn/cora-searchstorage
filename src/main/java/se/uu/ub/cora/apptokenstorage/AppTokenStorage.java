@@ -19,10 +19,8 @@
 
 package se.uu.ub.cora.apptokenstorage;
 
-import java.util.List;
-
 public interface AppTokenStorage {
 
-	List<String> getAppTokensForUserId(String userId);
+	boolean userIdHasAppToken(String userId, String appToken);
 
 }
