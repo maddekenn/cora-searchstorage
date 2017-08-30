@@ -8,16 +8,21 @@
 		<version>0.6-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>apptokenstorage</artifactId>
-	<version>0.3-SNAPSHOT</version>
+	<artifactId>searchstorage</artifactId>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>apptokenstorage</name>
+	<name>searchstorage</name>
+	
+	<properties>
+		<bookkeeper.version>0.10-SNAPSHOT</bookkeeper.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	
 	<scm>
-		<connection>scm:git:https://git.epc.ub.uu.se/epc/apptokenstorage.git</connection>
-		<developerConnection>scm:git:https://git.epc.ub.uu.se/epc/apptokenstorage.git</developerConnection>
-		<url>https://git.epc.ub.uu.se/epc/apptokenstorage.git</url>
+		<connection>scm:git:https://git.epc.ub.uu.se/epc/searchstorage.git</connection>
+		<developerConnection>scm:git:https://git.epc.ub.uu.se/epc/searchstorage.git</developerConnection>
+		<url>https://git.epc.ub.uu.se/epc/searchstorage.git</url>
 	</scm>
 
 	<repositories>
@@ -35,12 +40,12 @@
 		</repository>
 	</repositories>
 
-	
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
-
 	<dependencies>
+	<dependency>
+			<groupId>se.uu.ub.cora</groupId>
+			<artifactId>bookkeeper</artifactId>
+			<version>${bookkeeper.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>

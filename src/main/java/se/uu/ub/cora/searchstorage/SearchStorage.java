@@ -17,10 +17,12 @@
  *     along with Cora.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package se.uu.ub.cora.apptokenstorage;
+package se.uu.ub.cora.searchstorage;
 
-public interface AppTokenStorage {
+import se.uu.ub.cora.bookkeeper.data.DataGroup;
 
-	boolean userIdHasAppToken(String userId, String appToken);
+public interface SearchStorage {
+
+	DataGroup getSearchTerm(String searchTermId);
 
 }
