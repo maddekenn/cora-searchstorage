@@ -39,7 +39,6 @@
 			</snapshots>
 		</repository>
 	</repositories>
-
 	<dependencies>
 	<dependency>
 			<groupId>se.uu.ub.cora</groupId>
