@@ -25,4 +25,5 @@ public interface SearchStorage {
 
 	DataGroup getSearchTerm(String searchTermId);
 
+	DataGroup getCollectIndexTerm(String collectIndexTermId);
 }
