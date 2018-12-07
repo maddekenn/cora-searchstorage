@@ -15,24 +15,24 @@
 	<parent>
 		<groupId>se.uu.ub.cora</groupId>
 		<artifactId>cora-parent</artifactId>
-		<version>0.8-SNAPSHOT</version>
+		<version>0.8.6</version>
 	</parent>
 
 	<artifactId>searchstorage</artifactId>
-	<version>0.3-SNAPSHOT</version>
+	<version>0.3.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>searchstorage</name>
 
 	<properties>
-		<bookkeeper.version>0.13-SNAPSHOT</bookkeeper.version>
+		<bookkeeper.version>0.13.0</bookkeeper.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<scm>
-		<connection>scm:git:https://github.com/lsu-ub-uu/searchstorage.git</connection>
-		<developerConnection>scm:git:https://github.com/lsu-ub-uu/searchstorage.git</developerConnection>
-		<url>https://github.com/lsu-ub-uu/searchstorage.git</url>
+		<connection>scm:git:https://github.com/lsu-ub-uu/cora-searchstorage.git</connection>
+		<developerConnection>scm:git:https://github.com/lsu-ub-uu/cora-searchstorage.git</developerConnection>
+		<url>https://github.com/lsu-ub-uu/cora-searchstorage.git</url>
 	</scm>
 
 	<dependencies>
