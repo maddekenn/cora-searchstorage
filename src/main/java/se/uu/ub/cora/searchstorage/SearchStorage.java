@@ -1,5 +1,5 @@
 /*
- * Copyright 2017 Uppsala University Library
+ * Copyright 2017, 2019 Uppsala University Library
  *
  * This file is part of Cora.
  *
@@ -19,7 +19,7 @@
 
 package se.uu.ub.cora.searchstorage;
 
-import se.uu.ub.cora.bookkeeper.data.DataGroup;
+import se.uu.ub.cora.data.DataGroup;
 
 public interface SearchStorage {
 
