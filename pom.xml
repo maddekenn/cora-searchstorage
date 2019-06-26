@@ -23,7 +23,6 @@
 	<name>searchstorage</name>
 
 	<properties>
-		<bookkeeper.version>1.0.0</bookkeeper.version>
 		<coradata.version>0.1-SNAPSHOT</coradata.version>
 	</properties>
 
@@ -35,11 +34,6 @@
   </scm>
 
 	<dependencies>
-		<dependency>
-			<groupId>se.uu.ub.cora</groupId>
-			<artifactId>bookkeeper</artifactId>
-			<version>${bookkeeper.version}</version>
-		</dependency>
 		<dependency>
 			<groupId>se.uu.ub.cora</groupId>
 			<artifactId>coradata</artifactId>
